@@ -517,3 +517,108 @@ button {
     font-weight: 400;
 }
 }
+
+/* THIRD SECTION, OUR TEAM */
+
+.our_team {
+    background-color: #F4F4FD;
+}
+
+.title_two {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.team_name-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.team_name {
+    background-color: #ffffff;
+    
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.employer-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.title-team {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.txt-team {
+    text-align: center;
+    font-weight: 400;
+}
+
+.other-container {
+    max-width: 320px;
+    padding: 0 28px;
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+.team_name-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 24px;
+
+    }
+.other-container {
+    max-width: 768px;
+    padding: 0 16px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+.team_name-container {
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.link-icon:hover,
+.link-icon:focus {
+    background-color: #404BBF;
+}
+
+.link-icon,
+.link-icon-ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.other-container {
+    max-width: 1158px;
+}
+}
