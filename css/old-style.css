@@ -39,16 +39,13 @@
 
 
 
-.icon {
-    fill: #f4f4fd;
-}
+
 
 
 
 
 
 .portfolio_container {
-    display:flex;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
